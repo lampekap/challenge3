@@ -72,12 +72,13 @@ h2{
 @media screen and (min-width: 1000px){
 	body{
 			font-size: 20px;
+			height: 100vh;
 	}
 #container {
-	height: 100vh;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 600px;
-	grid-gap: 30px;
+	grid-column-gap: 30px;
+
 }
 .item {
 	padding: 30px;
