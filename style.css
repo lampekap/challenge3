@@ -8,15 +8,15 @@ body {
 	font-size: 20px;
 }
 #container {
-	padding: 20px;
+	padding: 10px;
+	padding-top: 30px;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3,auto);
-	grid-gap: 30px;
+	grid-row-gap: 30px;
 }
 .item{
 	padding: 30px;
-	margin-top: 5vh;
 	background-color: #c4c4c4;
 	border-radius: 10px;
 	border: solid 2px white;
@@ -71,10 +71,10 @@ h2{
 }
 @media screen and (min-width: 1000px){
 	body{
-			background-size: stretch;
 			font-size: 20px;
 	}
-	#container {
+#container {
+	height: 100vh;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 600px;
 	grid-gap: 30px;
