@@ -1,6 +1,6 @@
 function wind(){
 $.getJSON
-("http://api.apixu.com/v1/current.json?key=54ed22965da24bf083a122538192703&q=Amsterdam",
+("https://api.apixu.com/v1/current.json?key=54ed22965da24bf083a122538192703&q=Amsterdam",
 
 	function(data) {
 		console.log(data);
