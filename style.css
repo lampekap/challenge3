@@ -69,24 +69,35 @@ h2{
 	background-image: url(images/singapore.jpg);
 	background-size: cover;
 }
+@media screen and (min-width: 650px){
+	#container{
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+	}
+}
 @media screen and (min-width: 1000px){
 	body{
-			font-size: 20px;
 			height: 100vh;
 	}
 #container {
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 600px;
-	grid-column-gap: 30px;
-
+	grid-template-rows: 90vh;
 }
 .item {
+	display: grid;
 	padding: 30px;
+	align-content: space-around;
 }
-	.innercontainer{
+.innercontainer{
 		width: 90%;
+		height: 20vh;
 	}
 .stad{
 	width: 90%;
+	height: 20vh;
 }	
 }
+@media screen and (min-width: 1440px){
+	body{
+		font-size: 2.3vh;
+	}
